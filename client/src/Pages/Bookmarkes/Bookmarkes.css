@@ -1,0 +1,33 @@
+.content {
+  margin-left: 300px;
+}
+.bookmark_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: stretch;
+}
+.bookmark_spiner {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/*Add category css*/
+.add_category_input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.add_category_input input,
+.add_category_input input:focus {
+  background: none;
+  border: none;
+  color: white;
+  border-bottom: 1px solid #dcc28f;
+}
+
+.add_category_icon {
+  font-size: 30px;
+  color: white;
+}

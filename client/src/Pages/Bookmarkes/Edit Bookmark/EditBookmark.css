@@ -1,0 +1,114 @@
+.url_preview {
+  display: flex;
+  align-items: center;
+}
+.url_info {
+  margin-left: 20px;
+}
+.Edit_title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.Edit_desc {
+  font-size: 16px;
+}
+
+.url_thumbnail img {
+  height: 100px;
+  width: 350px;
+  object-fit: contain;
+}
+.url_info input {
+  border: none;
+  background: none;
+  color: white;
+}
+
+.Edit_model_body {
+  background-color: #303030;
+  color: white;
+  padding: 50px;
+}
+.Edit_form {
+  width: 30rem;
+  margin-top: 60px;
+}
+.Edit_form input,
+.Edit_form input:focus,
+.Edit_form select {
+  background: #292929;
+  color: white;
+}
+.Edit_form input,
+.Edit_form select {
+  border: 1px solid #272727;
+}
+.Edit_form .form-control[readonly] {
+  background: none;
+}
+.Edit_form input:focus,
+.Edit_form select:focus {
+  border: 1px solid #dcc28f;
+}
+.update_btn {
+  order: none;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  color: black;
+  font-weight: 600;
+  background-color: #dcc28f;
+  margin-left: 85px;
+  margin-top: 30px;
+}
+.update_btn:hover {
+  filter: brightness(1.1);
+}
+
+.Edit_form label {
+  color: #999;
+  font-size: 15px;
+}
+
+/* category model csss*/
+.Edit_category_model_body {
+  background-color: #292929;
+  color: #e6e6e6;
+  /* padding: 50px; */
+  border: 1px solid grey;
+  height: 90vh;
+  overflow: auto;
+}
+.Edit_category_model_body p {
+  font-size: 20px;
+  font-weight: 600;
+}
+.Edit_category_model_body div {
+  color: #999;
+  font-size: 15px;
+  margin: 10px 0px;
+}
+.Edit_category_list {
+  margin-top: 20px;
+}
+.Edit_category_list li {
+  cursor: pointer;
+  padding: 5px;
+}
+.Edit_category_list li:hover {
+  background: #303030;
+}
+.edit_category_icons {
+  margin-right: 10px;
+  color: #dcc28f;
+}
+.edit_category_active {
+  color: #dcc28f;
+  background: #303030;
+}

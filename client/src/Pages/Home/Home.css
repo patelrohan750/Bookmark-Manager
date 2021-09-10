@@ -1,0 +1,146 @@
+.home {
+  background: #292929;
+  overflow: hidden;
+}
+
+.card__text {
+  /* font-size: 22px; */
+  line-height: 1.6;
+  color: #c4c5c5c5;
+  margin-bottom: 30px;
+}
+.signin__wrapper {
+  margin-top: 20px;
+}
+.have__account {
+  /* color: #0077ff; */
+  color: #c4c5c5c5;
+}
+.signin__link {
+  color: #0077ff;
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+/**************** header section ***************/
+.home_header_section {
+  height: 100vh;
+}
+.header_info {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header_info h1 {
+  width: 85%;
+  font-size: 3.125rem;
+  line-height: 1.12;
+  font-weight: 600;
+}
+.header_info h4 {
+  font-size: 1.5rem;
+  line-height: 1.42;
+  font-weight: normal;
+  color: #999;
+}
+.headerSection_btn {
+  background: #0077ff;
+  padding: 8px 20px;
+  border: none;
+  outline: none;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.headerSection_btn:hover {
+  background: #014a9c;
+}
+
+/*about us section*/
+.about_section {
+  color: white;
+  padding: 20px 0px;
+  max-width: 760px;
+  margin: 0px auto;
+}
+.about_section h2 {
+  width: 95%;
+  font-size: 2.25rem;
+  line-height: 1.4;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.about_section h4 {
+  width: 94%;
+  font-size: 1.5rem;
+  line-height: 1.42;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.about_section p {
+  text-align: center;
+  font-size: 1.125rem;
+  line-height: 1.45;
+  color: #999;
+  margin: 0px auto;
+  max-width: 630px;
+}
+.coders {
+  color: #0077ff;
+}
+.about_intro {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.home_title {
+  color: #efeeee;
+  font-size: 2.25rem;
+  line-height: 1.4;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.home_text {
+  font-size: 0.98rem;
+  font-weight: normal;
+  color: #b9b9b9;
+}
+.save,
+.category_svg,
+.available_svg,
+.mision_svg {
+  height: 450px;
+  width: 450px;
+}
+.save {
+  height: 350px;
+}
+.feature_section {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.category_feature {
+  padding: 15px;
+  margin: 10px 0px;
+  color: #b9b9b9;
+  border-radius: 4px;
+  background: #060b11;
+}
+.category_feature strong {
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #efeeee;
+}

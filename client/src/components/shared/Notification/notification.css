@@ -1,0 +1,7 @@
+.Toastify__toast--info,
+.Toastify__toast--success {
+  width: 500px;
+}
+.Toastify__toast {
+  min-height: 75px;
+}

@@ -1,0 +1,14 @@
+.nobookmark {
+  left: 60%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.noBookmarkImage {
+  width: 250px;
+}
+.noBookmarkText {
+  font-size: 22px;
+  color: white;
+}

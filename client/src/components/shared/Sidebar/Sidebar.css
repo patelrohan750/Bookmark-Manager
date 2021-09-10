@@ -1,0 +1,149 @@
+ul {
+  padding: 0;
+  margin: 0;
+}
+.category_links {
+  color: #c8c8c8;
+}
+.category_links:hover {
+  color: #dcc28f;
+}
+.count {
+  color: #999;
+}
+
+.active_category_link,
+.active_category_link:hover {
+  color: #dcc28f;
+  /* padding: 10px 100px 10px 10px; */
+}
+.active_category_link .all_icon {
+  color: #05a677;
+}
+.side_menu {
+  color: white;
+  position: fixed;
+  background: #292929;
+  width: 300px;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 30px 20px;
+  overflow: auto;
+  transition: width 0.2s ease-in;
+}
+.add_collecation {
+  font-size: 30px;
+}
+.profile_info {
+  color: #c8c8c8;
+}
+.side_menu .top_section {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -25px;
+  background: #292929;
+  position: sticky;
+  top: -30px;
+}
+#nav-dropdown-dark-example {
+  color: #c8c8c8 !important;
+}
+.all {
+  color: #c8c8c8;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.all_icon {
+  font-size: 25px;
+  margin-right: 5px;
+}
+.main_menu {
+  margin-top: 20px;
+  color: #c8c8c8;
+  cursor: pointer;
+}
+.main_menu p {
+  color: #999;
+  font-size: 15px;
+}
+
+/* category css */
+.category_actions {
+  display: flex;
+  align-items: center;
+}
+.category_name {
+  padding: 5px 0px;
+}
+.category_actions .action_dropdwon {
+  display: none;
+}
+.category_count {
+  display: block;
+}
+.category_actions .dropdown-toggle::after {
+  display: none;
+}
+.category_threedot {
+  font-size: 25px;
+}
+.category_threedot a {
+  padding: 0;
+}
+.category_section:hover .action_dropdwon {
+  display: block;
+}
+.category_section:hover .category_count {
+  display: none;
+}
+
+/* delete model */
+
+.delete_model_actions_btn {
+  display: flex;
+  justify-content: end;
+  margin-top: 20px;
+}
+.delete_model_body {
+  background-color: #303030;
+  color: #c8c8c8;
+  border: 1px solid #494848;
+}
+
+.delete_model_actions_btn button:first-child {
+  border: none;
+  display: inline-block;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  background-color: #dcc28f;
+  color: black;
+  font-weight: 600;
+  margin-right: 20px;
+}
+.delete_model_actions_btn button:first-child:hover {
+  filter: brightness(1.1);
+}
+.delete_model_actions_btn button:last-child {
+  border: 1px solid #666666;
+  display: inline-block;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  background-color: #303030;
+  color: #c8c8c8;
+  font-weight: 600;
+}
+.delete_model_actions_btn button:last-child:hover {
+  border: 1px solid #b4b4b4;
+}

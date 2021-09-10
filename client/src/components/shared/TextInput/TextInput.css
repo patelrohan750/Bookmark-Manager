@@ -1,0 +1,28 @@
+.input_div {
+  background: #323232;
+  border-radius: 10px;
+  width: 300px;
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  /* margin-bottom: 20px; */
+}
+.input_img {
+  height: 20px;
+  margin-left: 15px;
+}
+.custom__input {
+  background: #323232;
+  border: none;
+  outline: none;
+  padding: 15px 10px;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 15px;
+}
+/* input:-internal-autofill-selected {
+  appearance: menulist-button;
+  background-color: #323232 !important;
+  background-image: none !important;
+  color: -internal-light-dark(black, white) !important;
+} */

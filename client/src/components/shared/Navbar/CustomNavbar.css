@@ -1,0 +1,92 @@
+.logo {
+  color: #f3a93a;
+}
+.custom__nav {
+  border-bottom: 1px solid #323232;
+  position: sticky;
+  top: 0;
+}
+.custom__navbar {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+.navbar__brand {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+/* .logo__text {
+  margin-left: 10px;
+} */
+/* .user__info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+.navbar_login_btn {
+  background: transparent;
+  border: 2px solid #0077ff;
+  padding: 5px 20px;
+  /* border: none; */
+  outline: none;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.navbar_login_btn:hover {
+  background: #0077ff;
+}
+.navbar_register_btn {
+  background: #0077ff;
+  padding: 5px 20px;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.navbar_register_btn:hover {
+  background: #014a9c;
+}
+.user__name {
+  display: contents;
+  font-size: 22px;
+  font-weight: bold;
+  color: #ffffff;
+  /* margin-right: 15px; */
+}
+.user__avtar__wrapper {
+  width: 50px;
+  height: 50px;
+  border: 3px solid #0077ff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.user__avtar__image {
+  height: 90%;
+  width: 90%;
+  object-fit: cover;
+}
+.add__bookmark {
+  display: flex;
+  flex: 0.1;
+}

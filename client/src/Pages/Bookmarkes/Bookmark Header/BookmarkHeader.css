@@ -1,0 +1,113 @@
+.bookmark_header {
+  padding: 15px 30px;
+}
+.sticky_bookamrk_header {
+  position: sticky;
+  top: 0;
+  right: 0;
+  background: #303030;
+  z-index: 11;
+}
+.bookmark_search_section {
+  display: flex;
+  flex: 3;
+}
+.bookmark_search {
+  display: flex;
+  align-items: center;
+  width: 500px;
+  padding: 0px 20px;
+  background: #262626;
+  border-radius: 50px;
+  overflow: hidden;
+}
+.search_icon {
+  color: white;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.search_input input {
+  color: white;
+  width: 500px;
+  background: #262626;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  padding: 10px 0;
+}
+
+.add_btn {
+  border: none;
+  display: inline-block;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  background-color: #dcc28f;
+  color: black;
+  font-weight: 600;
+}
+.add_btn:hover,
+.add_save_btn:hover {
+  filter: brightness(1.1);
+}
+.url_input,
+.url_input:focus {
+  background-color: #2d2d2d;
+  color: white;
+}
+.url_input {
+  border: 1px solid #555454;
+}
+.url_input:focus {
+  border: 1px solid #dcc28f;
+}
+
+/*change model postion*/
+
+.add_boomark_model {
+  color: white;
+  /* position: relative; */
+  top: -160px;
+  left: 69%;
+  width: 27rem;
+}
+.add_bookmark_model_body {
+  background-color: #303030;
+  border: 1px solid grey;
+}
+.add_save_btn,
+.add_save_disbled {
+  float: right;
+  border: none;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  color: black;
+  font-weight: 600;
+}
+.add_save_btn {
+  background-color: #dcc28f;
+}
+.add_save_disbled {
+  background-color: #7a7a7a;
+}
+.header_divider {
+  margin-top: 20px;
+  border-bottom: 1px solid #434343;
+}
+.category_header {
+  color: white;
+  padding: 0px 35px;
+  font-size: 20px;
+  font-weight: 500;
+}

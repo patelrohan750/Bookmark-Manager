@@ -1,0 +1,34 @@
+.form__label {
+  display: flex;
+  margin-bottom: 10px;
+  color: white;
+}
+.from__group {
+  margin-bottom: 20px;
+}
+.email__custom__btn {
+  background: #0077ff;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 18px;
+  /* font-weight: bold; */
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.email__custom__btn:hover {
+  background: #014a9c;
+}
+.custom__isInvalid {
+  border: 1px solid red;
+}
+.custom__error__message {
+  display: flex;
+  font-size: 0.875em;
+  color: #dc3545;
+}

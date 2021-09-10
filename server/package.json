@@ -1,0 +1,27 @@
+{
+  "name": "bookmarkmanager",
+  "version": "1.0.0",
+  "description": "Bookmark ManagerApp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rohan patel",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.5",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "joi": "^17.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "link-preview-generator": "^1.0.6",
+    "link-preview-js": "^2.1.8",
+    "mongoose": "^5.13.5",
+    "pusher": "^5.0.0",
+    "pusher-js": "^7.0.3",
+    "validator": "^13.6.0"
+  }
+}

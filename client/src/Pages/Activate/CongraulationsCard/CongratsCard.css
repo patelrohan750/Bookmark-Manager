@@ -1,0 +1,43 @@
+.congrats_card_container {
+  width: 500px;
+  height: 400px;
+  padding: 2rem;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  background-color: #f8f9fd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.congrats_img img {
+  width: 150px;
+}
+.congrats_titile {
+  text-align: center;
+  font-size: 1.6rem;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.congrats_btn {
+  background: #fff;
+  padding: 10px 20px;
+  border: 2px solid #0077ff;
+  outline: none;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  color: #0077ff;
+  font-size: 18px;
+  /* font-weight: bold; */
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.congrats_btn:hover {
+  background-color: #0077ff;
+  color: white;
+}
